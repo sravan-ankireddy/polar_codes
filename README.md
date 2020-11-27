@@ -5,6 +5,28 @@ This project aims to develop efficient encoder and decoder algorithms for polar 
 
 Key words: Polar Codes; Successive Cancellation Decoding; List Decoding; Belief Propagation; 5G NR
 
+Key instructions/commands for C code:
+
+Instructions to run C codes on x86 processor:
+
+Change the extensions for functions_ xxxx.c  and simulate_xxxx.c according to the decoder. This an example for SCL.
+
+=======> gcc -O3 functions_SCL.c -o hello simulate_SCL.c -lm
+
+Instructions to run C codes on ARM processor:
+
+Change the extensions for functions_ and simulate_ according to the decoder. This an example for SCL.
+
+=======> gcc -O3 -march=armv8-a -mtune=cortex-a53 -mfpu=neon -ftree-vectorize functions_SCL.c -o hello simulate_SCL.c -lm
+
+=====================================================
+
+functions_SCL.h — header file
+
+functions_SCL.c — all the functions are defined in this file
+
+simulate_SCL.c — all simulation parameters are defined in this function
+
 Abbrevations : 
 
 AWGN - Additive White Gaussian Noise
