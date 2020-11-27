@@ -8,26 +8,49 @@ Key words: Polar Codes; Successive Cancellation Decoding; List Decoding; Belief 
 Abbrevations : 
 
 AWGN - Additive White Gaussian Noise
+
 BCH - Bose-Chaudhuri-Hocquenghem
+
 BEC - Binary Erasure Channel
+
 BER - Bit Error Rate
+
 BLER - Block Error Rate
+
 BPSK - Binary Phase Shift Keying
+
 BSC - Binary Symmetric Channel
+
 CRC - Cyclic Redundancy Check
+
 CRC-BP - CRC aided Belief Propagation Decoder
+
 FER - Frame Error Rate
+
 FFT - Fast Fourier Transform
+
 GF - Galio Field
+
 HWF - Hardware Friendly
+
 LDPC - Low Density Parity Check
+
 LLR - Log Likelihood Ratio
+
 PM - Path Metric
+
 Rep - Repetition
+
 RS - Reed-Solomon
+
 SC - Successive Cancellation
+
 SCL - Successive Cancellation List
+
 SNR - Signal to Noise Ratio
+
 SPC - Single Parity Check
+
 SSC - Simplified Successive Cancellation
+
 SSCL - Simplified Successive Cancellation List
